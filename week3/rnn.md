@@ -13,3 +13,7 @@ input_shape = [None, 1]: TF assuems that the first dimension is the batch size, 
 - Lambda layer: performs arbitrary operations to effectively expand the functionality of TensorFlow's kares
 - Lambda layer1: using lambda we expand the array by one dimension by setting input shape to none, we're saying that the model can take sequences of any length
 - Lambda layer2: if we scale up the ouputs by 100 we can help training, the default activation function in RNN layer is tan H which is the hyperbolic tangent activation, this outpus values between negative one and one, since the time seriese values are in that order usually in the 10s like 40s, 50s, 70s, then scaling up the outputs to the same ballpark can help us with learning
+
+## Code
+https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C4/W3/ungraded_labs/C4_W3_Lab_1_RNN.ipynb
+https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C4/W3/ungraded_labs/C4_W3_Lab_2_LSTM.ipynb
